@@ -7,8 +7,7 @@ This utility is a Go application that automates SSH login for servers protected 
 ### Install Dependencies
 The program uses the following Go packages:
 ```sh
-go get github.com/creack/pty
-go get golang.org/x/term
+go mod tidy
 ```
 
 ## Prerequisites
@@ -21,7 +20,7 @@ Ensure that your SSH servers are already configured with `totp-cli` for generati
 ## Build
 
 ```sh
-go build main.go -o ssh-mfa
+go build -o ssh-mfa
 ```
 
 ## Usage
