@@ -20,9 +20,9 @@ Ensure that your SSH servers are already configured with `totp-cli` for generati
 
 ## Build
 
-``sh
+```sh
 go build main.go -o ssh-mfa
-``
+```
 
 ## Usage
 Run the program using the following command:
