@@ -1,6 +1,6 @@
 # SSH MFA (TOTP) Wrapper Utility
 
-This utility is a Go application that automates SSH login for servers protected with multi-factor authentication (MFA). It securely provides both the SSH password and the TOTP verification code using the `totp-cli` tool.
+This utility is a Go application that automates SSH login for servers protected with multi-factor authentication (MFA). It automatically generates and provides the TOTP verification code using the `totp-cli` tool when SSHing into an MFA protected SSH server.
 
 ## Prerequisites
 
