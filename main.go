@@ -123,8 +123,8 @@ func sshWithTOTP(server, namespace string) error {
 
 func main() {
 	if len(os.Args) < 3 || len(os.Args) > 4 {
-		fmt.Println("Usage: go run main.go <server> <namespace> [username]")
-		fmt.Println("  or:  go run main.go <username@server> <namespace>")
+		fmt.Println("Usage: ssh-mfa <server> <namespace> [username]")
+		fmt.Println("  or:  ssh-mfa <username@server> <namespace>")
 		os.Exit(1)
 	}
 
