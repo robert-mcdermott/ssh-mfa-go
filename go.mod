@@ -2,7 +2,7 @@ module ssh-mfa-go
 
 go 1.23.0
 
-toolchain go1.24.0
+toolchain go1.24.2
 
 require (
 	github.com/creack/pty v1.1.24
